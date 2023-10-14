@@ -1,2 +1,2 @@
-# predicting-house-prices
-linear regression model to predict house prices
+# Predicting-House-Prices
+Linear regression model to predict house prices
