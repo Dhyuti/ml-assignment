@@ -1,0 +1,31 @@
+# Python-related files and directories
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+env/
+
+# Jupyter Notebook files
+.ipynb_checkpoints/
+
+# IDE or code editor specific files and directories
+.idea/
+.vscode/
+
+# Data files (if you want to exclude data from version control)
+data/
+*.csv
+
+# Model checkpoints and saved models
+models/
+*.h5
+
+# Logs
+logs/
+
+# Other temporary or system files
+*.log
+*.swp
