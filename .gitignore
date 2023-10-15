@@ -29,3 +29,6 @@ logs/
 # Other temporary or system files
 *.log
 *.swp
+
+# image classifier model related files
+*image_classifier.model/
