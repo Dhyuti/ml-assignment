@@ -15,7 +15,11 @@ Set up the enviornment.
 ```
 git clone https://github.com/wowlabz-interview-assignments.git
 ```
-2. Install the required dependencies:
+2. Create a virtual environment:
+```
+python -m venv venv
+```
+3. Install the required dependencies:
 ```
 pip install -r requirements.txt
 ```
