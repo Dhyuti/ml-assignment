@@ -1,6 +1,6 @@
-# Machine Learning Project 
+# Machine Learning Assignments 
 
-This project contains 3 machine learning projects:
+This repository contains 3 machine learning assignments:
 
 - Image Classification
 - House Price Prediction
