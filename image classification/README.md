@@ -16,22 +16,22 @@ To make predictions, load the saved model and pass preprocessed images to the `p
 - Numpy
 - Matplotlib
 
-## Examples
+## Usage
 
-Train the model:
+The model is trained on the Fashion MNIST dataset which contains 60,000 grayscale images of clothing items across 10 categories. 
 
-```
-python fashion_mnist.py
-```
+The CNN model architecture consists of:
 
-Load the model and make predictions:
+- Convolutional layers
+- Max pooling layers 
+- Flatten layer
+- Dense layers
 
-```
-model = load_model('image_classifier.model')
+It is compiled with the Adam optimizer and sparse categorical crossentropy loss.
 
-img = preprocess_image(test_image) 
-prediction = model.predict(img)
-```
+After training, the model is evaluated on the validation set and saved to `image_classifier.model`.
+
+To make predictions, load the saved model and pass preprocessed images to the `predict()` method. The output will be prediction probabilities for each class.
 
 ## References
 
