@@ -16,8 +16,8 @@ env/
 .vscode/
 
 # Data files (if you want to exclude data from version control)
-data/
-*.csv
+# data/
+# *.csv
 
 # Model checkpoints and saved models
 models/
