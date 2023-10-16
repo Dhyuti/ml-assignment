@@ -35,8 +35,7 @@ def sentiment_score(review):
     result = model(tokens)
     return int(torch.argmax(result.logits)) + 1
 
+print(sentiment_score('I hate you'))
+
 # Apply the sentiment_score function to the 'review' column and store the results in a new 'score' column
 df['score'] = df['review'].apply(lambda x: sentiment_score(x[:512]))
-
-# Display the first few rows of the DataFrame with sentiment scores
-print(df.head())
