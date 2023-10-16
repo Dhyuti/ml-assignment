@@ -16,23 +16,6 @@ To make predictions, load the saved model and pass preprocessed images to the `p
 - Numpy
 - Matplotlib
 
-## Examples
-
-Train the model:
-
-```
-python fashion_mnist.py
-```
-
-Load the model and make predictions:
-
-```
-model = load_model('image_classifier.model')
-
-img = preprocess_image(test_image) 
-prediction = model.predict(img)
-```
-
 ## References
 
 - [Fashion MNIST Dataset](https://github.com/zalandoresearch/fashion-mnist)
