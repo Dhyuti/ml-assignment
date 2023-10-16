@@ -1,6 +1,7 @@
-
-import pandas as pd
 import os
+import torch
+import pandas as pd
+from transformers import AutoTokenizer, AutoModelForSequenceClassification
 
 # Check the available files in the specified directory
 for dirname, _, filenames in os.walk('/kaggle/input'):
@@ -22,9 +23,6 @@ df.info()
 df = df.reset_index(drop=False)
 df = df.rename(columns={'index': 'Id'})
 
-from transformers import AutoTokenizer, AutoModelForSequenceClassification
-import torch
-
 # Load the BERT-based sentiment analysis model and tokenizer
 tokenizer = AutoTokenizer.from_pretrained('nlptown/bert-base-multilingual-uncased-sentiment')
 model = AutoModelForSequenceClassification.from_pretrained('nlptown/bert-base-multilingual-uncased-sentiment')
@@ -35,7 +33,9 @@ def sentiment_score(review):
     result = model(tokens)
     return int(torch.argmax(result.logits)) + 1
 
+# Test the sentiment_score function
 print(sentiment_score('I hate you'))
+print(sentiment_score('I love you'))
 
 # Apply the sentiment_score function to the 'review' column and store the results in a new 'score' column
 df['score'] = df['review'].apply(lambda x: sentiment_score(x[:512]))
