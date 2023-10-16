@@ -16,6 +16,11 @@ To make predictions, load the saved model and pass preprocessed images to the `p
 - Numpy
 - Matplotlib
 
+## Usage
+
+Clone or download this repository to your local machine.
+   - Refer to: [README.md](../README.md)
+     
 ## References
 
 - [Fashion MNIST Dataset](https://github.com/zalandoresearch/fashion-mnist)
