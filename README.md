@@ -8,6 +8,7 @@ This repository contains 3 machine learning assignments:
 
 
 ## Usage
+
 Set up the enviornment.
 
 1. Clone the repository:
