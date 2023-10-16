@@ -17,7 +17,7 @@ In this project, we use a pre-trained BERT-based model to classify the sentiment
 ## Usage
 
 1. Clone or download this repository to your local machine.
-   - Refer to: [README.md](.README.md)
+   - Refer to: [README.md](../README.md)
 3. Run the Python script in your preferred environment:
 The script will load the dataset, apply sentiment analysis to the reviews, and display the results.
 
