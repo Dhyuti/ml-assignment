@@ -20,13 +20,13 @@ pip install -r requirements.txt
 
 ## Contents
 
-[**Image Classification**](image_classification/README.md) 
+[**Image Classification**](/image_classification/README.md) 
 - Classify images using convolutional neural networks. 
 
-[**House Price Prediction**](house_price_prediction/README.md) 
+[**House Price Prediction**](/house_price_prediction/README.md) 
 - Predict house prices using linear regression.
 
-[**Sentiment Analysis**](sentiment_analysis/README.md) 
+[**Sentiment Analysis**](/sentiment_analysis/README.md) 
 - Analyze and understand the emotional tone and sentiment expressed in text data.
 
 
