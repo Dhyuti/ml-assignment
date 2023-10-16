@@ -8,12 +8,12 @@ This Python script demonstrates how to build a simple Linear Regression model to
 
 It also makes a sample prediction on a new data point to demonstrate its usage.
 
-## Dependencies
-
-- numpy
-- scikit-learn
-
 ## Usage
 
 Clone or download this repository to your local machine.
    - Refer to: [README.md](../README.md)
+
+## Dependencies
+
+- numpy
+- scikit-learn
