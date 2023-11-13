@@ -11,7 +11,7 @@ In this project, we use a pre-trained BERT-based model to classify the sentiment
 ## Usage
 
 Clone or download this repository to your local machine.
-   - Refer to: [wowlabz-interview-assignments/README.md](../README.md)
+   - Refer to: [ml-assignments/README.md](../README.md)
 
 ## Dependencies 
 
