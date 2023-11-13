@@ -11,7 +11,7 @@ It also makes a sample prediction on a new data point to demonstrate its usage.
 ## Usage
 
 Clone or download this repository to your local machine.
-   - Refer to: [wowlabz-interview-assignments/README.md](../README.md)
+   - Refer to: [ml-assignments/README.md](../README.md)
 
 ## Dependencies
 
