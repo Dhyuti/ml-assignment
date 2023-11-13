@@ -32,5 +32,5 @@ pip install -r requirements.txt
 [**Sentiment Analysis**](/sentiment_analysis/README.md) 
 - Analyze and understand the emotional tone and sentiment expressed in text data.
 
-[**House Price Prediction**](/house_price_prediction/README.md) 
+[**House Price Prediction**](/predicting_house_prices/README.md) 
 - Predict house prices using linear regression.
