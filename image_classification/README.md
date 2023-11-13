@@ -11,7 +11,7 @@ To make predictions, load the saved model and pass preprocessed images to the `p
 ## Usage
 
 Clone or download this repository to your local machine.
-   - Refer to: [wowlabz-interview-assignments/README.md](../README.md)
+   - Refer to: [ml-assignments/README.md](../README.md)
 
 ## Dependencies
 
